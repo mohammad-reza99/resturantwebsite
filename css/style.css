@@ -160,3 +160,16 @@ p {
   color: white;
   text-transform: uppercase;
 }
+
+.about-section {
+  background: #d4d2d2;
+}
+.about-section .card,
+.about-section .text-sec {
+  padding-left: 2rem;
+}
+img {
+  border-radius: 10px;
+  height: 80%;
+  width: 70%;
+}
