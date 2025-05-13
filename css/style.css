@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=quicksend:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap");
 @import url(./variables.css);
 
 *,
@@ -19,7 +20,7 @@ a:hover {
   text-decoration: none;
 }
 a:hover {
-  color: var(--parimary-color);
+  color: #a82c48 !important;
 }
 ul,
 ol {
@@ -56,6 +57,29 @@ h2 {
   text-transform: capitalize;
   font-family: var(--secondary-font);
   line-height: 3rem;
+}
+h4 {
+  color: #43121d;
+  font-family: "quicksend", sans-serif;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+h5 {
+  color: #43121d;
+  text-transform: capitalize;
+  font-family: "quicksend", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+p {
+  font-size: 1rem;
+  color: #555;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
 }
 
 .btn {
