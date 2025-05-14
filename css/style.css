@@ -207,3 +207,22 @@ img {
 .card {
   overflow: hidden;
 }
+.explore-food .card {
+  border: none;
+  background: transparent;
+  border-radius: 0.9375rem;
+}
+
+.explore-food .card span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #43121d;
+  padding-bottom: 1rem;
+  border-bottom: 0.0626rem solid #eee;
+}
+
+.explore-food .card span del {
+  color: #999;
+  margin-left: 0.5rem;
+}
