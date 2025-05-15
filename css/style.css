@@ -162,6 +162,7 @@ p {
 }
 img {
   height: 60px;
+  border-radius: 10px;
 }
 
 .food-type {
@@ -202,6 +203,9 @@ img {
 }
 .card {
   overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 .explore-food .card {
   border: none;
